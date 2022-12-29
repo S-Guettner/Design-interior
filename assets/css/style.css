@@ -119,12 +119,13 @@ main nav .navigation a {
 .featured iframe {
   width: 35vw;
   height: 15vh;
-  margin-left: 33rem;
+  /* margin-left:33rem; */
   margin-bottom: 5rem;
 }
 
 footer {
   display: flex;
+  justify-content: space-between;
   background-color: #2e2e2e;
   padding-top: 3rem;
   color: white;
