@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+}
+
+@font-face {
+    font-family:"lora" ;
+    src: url(../fonts/Lora/static/Lora-Regular.ttf);
+}
+@font-face {
+    font-family:"worksans" ;
+    src: url(../fonts/Work_Sans/static/WorkSans-Medium.ttf);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+
+        .headerText{
+            margin: auto;
+            text-align: center;
+
+                .companyName{
+                    margin-bottom: 1rem;
+                    font-size:3.5rem;
+                    font-family: "lora";
+                }
+                p{
+                    font-family: "lora";
+                }
+        }
+            img{
+                width: 60vw;
+            }
+}
+
+main{
+
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height:3rem;
+        width: 100vw;
+        background-color: #2e2e2e;
+
+            img{
+                width: 4rem;
+                padding-left: 0.5rem;
+            }
+
+            .navigation{
+                display: flex;
+                justify-content: space-evenly;
+                width: 30rem;
+                padding-right: 7rem;
+
+                    a{
+                        text-decoration: none;
+                        color: white;
+                        font-size: 0.75rem;
+                        font-family: "worksans";
+                    }
+            }
+    }
+}
+
+.story{
+    display: flex;
+    background-color:#2e2e2e;
+    height:50vh ;
+
+        img{
+            max-width: 30rem;
+            width: 40vw;
+            height: 40vh;
+            padding-top: 5rem;
+        }
+
+            .storyArticle{
+                width: 40vw;
+                padding-left: 2rem;
+                padding-top: 6rem;
+                color: white;
+                font-family: "lora";
+
+                    h2{
+                        margin-bottom: 1rem;
+                        text-align: center;
+                    }
+                    p{
+                        margin-bottom: 1rem;
+                        font-size: 0.8rem;
+                    }
+            }
+}
+
+.featured{
+
+
+        article{
+            margin: auto;
+            width: 20rem;
+            font-family: "lora";
+
+                h3{
+                    text-align: center;
+                    margin-bottom: 1rem;
+                    padding-top: 3rem;
+                }
+
+                    p{
+                        font-family: "worksans";
+                        margin-bottom: 2rem;
+                    }
+        }
+
+        .imgContainer{
+            display: flex;
+            justify-content: space-evenly;
+            column-gap: 2rem;
+
+                img{
+                    width: 25vw;
+                    margin-bottom: 4rem;
+                }
+        }
+
+        iframe{
+            width: 35vw;
+            height: 15vh;
+            margin-left:13rem;
+            margin-bottom:5rem;
+        }
+
+}
+
+footer{
+    display: flex;
+    background-color: #2e2e2e;
+    padding-top: 3rem;
+    color: white;
+    padding-bottom: 3rem;
+
+        .contact{
+            max-width:50vw ;
+            padding-left: 1rem;
+
+                h3{
+                    margin-bottom: 2rem;
+                }
+                p{
+                    margin-bottom: 0.7rem;
+                }
+        }
+        .contactForm{
+            padding-left: 3rem;
+                
+                input{
+                    margin-bottom: 1rem;
+                }
+                button{
+                    display: block;
+                }
+        }
+}
+
+.impressum{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background-color:#1d2c2f ;
+    padding-top: 1rem;
+
+        nav{
+            display: flex;
+            justify-content: space-between;
+            width: 30rem;
+
+                a{
+                    color: white;
+                    text-decoration: none;
+                }
+        }
+}
