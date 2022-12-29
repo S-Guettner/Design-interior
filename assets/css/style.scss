@@ -42,6 +42,8 @@ header{
 main{
 
     nav{
+        position: sticky;
+        top: 0;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -56,8 +58,8 @@ main{
 
             .navigation{
                 display: flex;
-                justify-content: space-evenly;
-                width: 30rem;
+                justify-content: space-between;
+                width: 50rem;
                 padding-right: 7rem;
 
                     a{
@@ -123,7 +125,7 @@ main{
         .imgContainer{
             display: flex;
             justify-content: space-evenly;
-            column-gap: 2rem;
+            column-gap: 2vw;
 
                 img{
                     width: 25vw;
